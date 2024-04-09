@@ -1,7 +1,7 @@
 ---
 # Front matter. This is where you specify a lot of page variables.
 layout: default
-title:  "Example Page"
+title:  "HASEL Bending Actuator Characterization"
 date:   2023-06-16 03:03:01 -0400
 description: >- # Supports markdown
   This is the main project page and the page used to demonstrate how this works with all of the options for the Front Matter present
