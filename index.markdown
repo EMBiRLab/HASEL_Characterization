@@ -1,11 +1,11 @@
 ---
 # Front matter. This is where you specify a lot of page variables.
 layout: default
-title:  "HASEL Bending Actuator Characterization"
+title:  "HASEL Actuator Design for Out-of-Plane Bending: A Parameteric Study of Planar Geometry"
 date:   2023-06-16 03:03:01 -0400
 description: >- # Supports markdown
   This is the main project page and the page used to demonstrate how this works with all of the options for the Front Matter present
-show-description: true
+show-description: false
 
 # Add page-specifi mathjax functionality. Manage global setting in _config.yml
 mathjax: true
@@ -22,28 +22,37 @@ image:
 
 # Only the first author is supported by twitter metadata
 authors:
-  - name: Someone
+  - name: Zachary Brei
     footnotes: 1
-  - name: Adam Li
-    url: https://buildingatom.io
+    email: breizach [at] umich.edu
+    mailto: breizach@umich.edu
+  - name: Chae Woo Lim
+    # url: https://buildingatom.io
     email: person [at] example.edu
     mailto: person@example.edu
     footnotes: 2
-  - name: Person 3
+  - name: Anneliese Ferguson
     email: someemail@example.com
     footnotes: 3
-  - name: Guy 4
+  - name: Anvay A. Pradhan
     mailto: combined@example.com
     footnotes: 3
-  - name: Another Person
+  - name: Varshni Vinayagam Sangeetha
+  - name: Xiangyun Bu
+  - name: Brent Usui
+  - name: Daniel B. Johnson
+  - name: Ram Vasudevan
+  - name: Talia Y. Moore
+
 
 # If you just want a general footnote, you can do that too.
 # See the sel_map and armour-dev examples.
 author-footnotes:
-  1: >- # Supports markdown
-    You can add random extra footnotes
-  2: And include websites or emails which are detached from their mailto
-  3: You can also just specify the email and not have a mailto, or if there's a mailto you want to use, you can specify only that
+  1: Mechanical Engineering, University of Michigan
+  2: Electrical Engineering, University of Michigan
+  3: Biomedical Engineering, University of Michigan
+  4: Robotics, University of Michigan
+  5: Zachary Brei, Chae Woo Lim, and Anneliese Ferguson are co-first authors.
 
 links:
   - icon: arxiv
@@ -69,37 +78,39 @@ links:
 {% include sections/authors %}
 {% include sections/links %}
 
-# Section Break
+# Current Work In Progress
+
+*TODO: add emails and personal websites*
+
+*TODO: adjust links above*
 ---
 
-# As you can see, the authors and link are just includes
-
-In other words, I can actually move them wherever I want, or place them here again.
-The data is provided by the front matter.
-Let's try flipping the order.
-
-{% include sections/links %}
-{% include sections/authors %}
-
----
-
-There is quite a bit of flexibility to how you structure the text too.
-Here, I'm going to make a justified grey content block with the heading outside.
-
-# [Content](#content)
 <div markdown="1" class="content-block grey justify no-pre">
-some text
+# [Abstract](#abstract)
 
-Try clicking this heading, this shows the manually defined header anchor, but if you do this, you should do it for all headings.
+Soft robotic systems are promising for a wide range of applications from locomotion to manipulation.
+In particular, fluidic dielectric elastomer actuators, such as Hydraulically Amplified Self-healing ELectrostatic (HASEL) actuators, demonstrate several compelling properties when compared to other soft robotic actuators such as lower power consumption, faster response times, and self-sensing capabilities.
+% HASEL actuators have several benefits such as 
+Current HASEL actuator research has thoroughly characterized linear HASEL actuators, but there is a lack of geometric characterization for bending HASEL actuators.
+This paper addresses this gap through the characterization of two important design parameters that affect out-of-plane bending of planar HASEL actuator designs.
+In particular, a sinusoidal wave pattern is parameterized by the period length and the minimum channel width. 
+The ratio of the period length to channel width is shown to be a good predictor for the curvature of the HASEL actuators when bending out-of-plane. %, with an optimal ratio demonstrated.
+The experimentally derived relationship is then used to demonstrate different grasp types for various objects.
 </div>
 
-I made this look right by adding the `no-pre` class.
-If you don't include `markdown="1"` it will fail to render any markdown inside.
 
-You can also make fullwidth embeds (this doesn't actually link to any video)
+<div markdown="1" class="content-block grey justify no-pre">
+# [Planar Geometry of HASELs](#planar_geometry_of_HASELs)
+
+*TODO: add figure of planar geometry*
+
+*TODO: add text describing planar geometry*
+</div>
+
+<!-- You can also make fullwidth embeds (this doesn't actually link to any video)
 <div class="fullwidth">
 <video controls="" style="background-color:black;width:100%;height:auto;aspect-ratio:16/9;"></video>
-</div>
+</div> -->
 
 <div markdown="1" class="content-block grey justify">
 # Topic inside of the content block
@@ -178,16 +189,10 @@ You can see at the end of this section in the markdown that I do just that
 {: class="cabin"}
 
 <div markdown="1" class="content-block grey justify">
-# This is a really long heading block so I can see if justify breaks the heading, and make sure that headings don't get justify unless they are explicitly classed with justify like the following heading
 
-# This is the following really long heading block so I can see if justify breaks the heading, and make sure that only this heading is justified because it has the explicit tag
-{: class="justify"}
-</div>
-
-<div markdown="1" class="content-block grey justify">
 # Citation
 
-*Insert whatever message*
+*TODO: add bibtex citation*
 
 ```bibtex
 @article{nash51,
