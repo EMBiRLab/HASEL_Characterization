@@ -89,6 +89,8 @@ author-footnotes:
 *TODO: add emails and personal websites*
 
 *TODO: adjust links above*
+
+*TODO: add citation at end*
 ---
 
 <div markdown="1" class="content-block grey justify no-pre">
