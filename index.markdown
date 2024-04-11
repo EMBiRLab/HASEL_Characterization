@@ -30,19 +30,25 @@ authors:
     # url: https://buildingatom.io
     email: person [at] example.edu
     mailto: person@example.edu
-    footnotes: 2
+    footnotes: 1
   - name: Anneliese Ferguson
     email: someemail@example.com
-    footnotes: 3
+    footnotes: 2
   - name: Anvay A. Pradhan
     mailto: combined@example.com
-    footnotes: 3
+    footnotes: 1
   - name: Varshni Vinayagam Sangeetha
+    footnotes: 1
   - name: Xiangyun Bu
+    footnotes: 1
   - name: Brent Usui
+    footnotes: 3
   - name: Daniel B. Johnson
+    footnotes: 1
   - name: Ram Vasudevan
+    footnotes: 4
   - name: Talia Y. Moore
+    footnotes: 4
 
 
 # If you just want a general footnote, you can do that too.
@@ -54,29 +60,29 @@ author-footnotes:
   4: Robotics, University of Michigan
   5: Zachary Brei, Chae Woo Lim, and Anneliese Ferguson are co-first authors.
 
-links:
-  - icon: arxiv
-    icon-library: simpleicons
-    text: Arxiv HP
-    url: https://arxiv.org/
-  - icon: bi-map
-    icon-library: bootstrap-icons
-    text: SEL_Map Ex.
-    url: /project-pages/sel_map
-  - icon: bi-bezier2
-    icon-library: bootstrap-icons
-    text: ARMOUR Ex.
-    url: /project-pages/armour-dev
-  - icon: github
-    icon-library: simpleicons
-    text: Code
-    url: https://github.com/BuildingAtom/project-pages
+# links:
+#   - icon: arxiv
+#     icon-library: simpleicons
+#     text: Arxiv HP
+#     url: https://arxiv.org/
+#   - icon: bi-map
+#     icon-library: bootstrap-icons
+#     text: SEL_Map Ex.
+#     url: /project-pages/sel_map
+#   - icon: bi-bezier2
+#     icon-library: bootstrap-icons
+#     text: ARMOUR Ex.
+#     url: /project-pages/armour-dev
+#   - icon: github
+#     icon-library: simpleicons
+#     text: Code
+#     url: https://github.com/BuildingAtom/project-pages
 
 # End Front Matter
 ---
 
 {% include sections/authors %}
-{% include sections/links %}
+<!-- {% include sections/links %} -->
 
 # Current Work In Progress
 
@@ -112,81 +118,33 @@ The experimentally derived relationship is then used to demonstrate different gr
 <video controls="" style="background-color:black;width:100%;height:auto;aspect-ratio:16/9;"></video>
 </div> -->
 
-<div markdown="1" class="content-block grey justify">
-# Topic inside of the content block
+<div markdown="1" class="content-block grey justify no-pre">
+# [Experimental Methods](#experimental_methods)
 
-Lorem ipsum dolor sit amet Consectetur adipiscing elit Integer molestie lorem at massa.
+*TODO: add experimental methods figure*
 
-![Alt Text](https://cdn.pixabay.com/photo/2019/09/05/01/11/mountainous-landscape-4452844_1280.jpg "Random Image")
+*TODO: add text describing experimental methods*
+
+*TODO: add videos of HASEL actuating*
 </div>
 
-# Topic outside of content block
+<div markdown="1" class="content-block grey justify no-pre">
+# [Results](#results)
 
-![Alt Text](https://cdn.pixabay.com/photo/2019/09/05/01/11/mountainous-landscape-4452844_1280.jpg "Random Image")
+*TODO: add 3D plot of individual data points?* 
 
-Lorem ipsum dolor sit amet Consectetur adipiscing elit Integer molestie lorem at massa.
+*TODO: add results plot of ratio*
 
-## This is how we can get the image at 100%
-
-<div markdown="1" class="fullwidth">
-![Alt Text](https://cdn.pixabay.com/photo/2019/09/05/01/11/mountainous-landscape-4452844_1280.jpg "Random Image")
+*TODO: add text describing results*
 </div>
 
-## And this is how we can get the image closer
+<div markdown="1" class="content-block grey justify no-pre">
+# [Conclusion](#conclusion)
 
-<div markdown="1" class="no-pre">
-![Alt Text](https://cdn.pixabay.com/photo/2019/09/05/01/11/mountainous-landscape-4452844_1280.jpg "Random Image")
+*TODO: add different grasp figure*
+
+*TODO: add text providing conclusion*
 </div>
-
-Lorem ipsum dolor sit amet Consectetur adipiscing elit Integer molestie lorem at massa.
-
-<div markdown="1" class="cabin">
-It's also possible to specify a new font for a specific section
-</div>
-
-<div markdown="1" class="jp">
-## See? 1
-</div>
-
-And you can also <span class="cabin">change it in the middle</span>, though that's a bit more problematic for other reasons.
-
-To specify fonts, just use Google Fonts and update `_data/fonts.yml`.
-Any fonts you add as extra fonts at the bottom become usable fonts in the body of the post.
-
-There are also tools to grab icons from other repos.
-Just use the following:
-{% include util/icons icon='github' icon-library='simpleicons' -%}
-, and you'll be able to add icons from any library you have enabled that is supported.
-
-This uses the liquid template engine for importing.
-If you include the - at the start of end of such a line, it say to discard all whitespace before or after.
-In order to keep the comma there, we added the -.
-This is what happens:
-{% include util/icons icon='github' icon-library='simpleicons' %}
-, when you don't have it (notice the space).
-
-And if you have mathjax enabled in `_config.yml` or in the Front Matter as it is here, you can even add latex:
-
-$$
-\begin{align*}
-  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
-  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
-  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
-      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
-      \vdots & \ddots & \vdots \\
-      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
-    \end{array} \right)
-  \left( \begin{array}{c}
-      y_1 \\
-      \vdots \\
-      y_n
-    \end{array} \right)
-\end{align*}
-$$
-
-You can also treat a section of text as a block, and use kramdown's block attribution methods to change fonts.
-You can see at the end of this section in the markdown that I do just that
-{: class="cabin"}
 
 <div markdown="1" class="content-block grey justify">
 
@@ -194,7 +152,7 @@ You can see at the end of this section in the markdown that I do just that
 
 *TODO: add bibtex citation*
 
-```bibtex
+<!-- ```bibtex
 @article{nash51,
   author  = "Nash, John",
   title   = "Non-cooperative Games",
@@ -204,5 +162,5 @@ You can see at the end of this section in the markdown that I do just that
   number  = "2",
   pages   = "286--295"
 }
-```
+``` -->
 </div>
