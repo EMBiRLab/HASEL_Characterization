@@ -28,22 +28,32 @@ authors:
     mailto: breizach@umich.edu
   - name: Chae Woo Lim
     # url: https://buildingatom.io
-    email: person [at] example.edu
-    mailto: person@example.edu
+    email: chaewlim [at] umich.edu
+    mailto: chaewlim@umich.edu
     footnotes: 1
   - name: Anneliese Ferguson
-    email: someemail@example.com
+    email: annferg [at] umich.edu
+    mailto: annferg@umich.edu
     footnotes: 2
   - name: Anvay A. Pradhan
-    mailto: combined@example.com
+    email: anvay [at] umich.edu
+    mailto: anvay@umich.edu
     footnotes: 1
   - name: Varshni Vinayagam Sangeetha
+    email: varshni [at] umich.edu
+    mailto: varshni@umich.edu
     footnotes: 1
   - name: Xiangyun Bu
+    email: xybu [at] umich.edu
+    mailto: xybu@umich.edu
     footnotes: 1
   - name: Brent Usui
+    email: busui [at] umich.edu
+    mailto: busui@umich.edu
     footnotes: 3
   - name: Daniel B. Johnson
+    email: dbjohn [at] umich.edu
+    mailto: dbjohn@umich.edu
     footnotes: 1
   - name: Ram Vasudevan
     footnotes: 4
