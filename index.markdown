@@ -164,7 +164,7 @@ The experimentally derived relationship is then used to demonstrate different gr
 
 *TODO: add bibtex citation*
 
-<!-- ```bibtex
+!-- ```bibtex
 @article{nash51,
   author  = "Nash, John",
   title   = "Non-cooperative Games",
@@ -174,5 +174,5 @@ The experimentally derived relationship is then used to demonstrate different gr
   number  = "2",
   pages   = "286--295"
 }
-``` -->
+``` --
 </div>
