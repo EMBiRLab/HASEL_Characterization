@@ -11,7 +11,7 @@ show-description: false
 mathjax: true
 # Automatically add permalinks to all headings
 # https://github.com/allejo/jekyll-anchor-headings
-autoanchor: true
+autoanchor: false
 
 # Preview image for social media cards
 image:
@@ -108,11 +108,11 @@ The experimentally derived relationship is then used to demonstrate different gr
 
 
 <div markdown="1" class="content-block grey justify no-pre">
-# [Planar Geometry of HASELs](#planar_geometry_of_HASELs)
+# [Planar Heat-Seal Geometry of HASELs](#planar_geometry_of_HASELs)
 
-*TODO: add figure of planar geometry*
+![Diagram of two planar designs of bending HASEL actuators. The key parameters investigated are the period $T$ of the sine wave and the channel width \\(W_C\\), which describes the smallest width of the bending region of the HASEL actuator.](Fig2.jpg)
 
-*TODO: add text describing planar geometry*
+This paper focuses on determining the effects of different heat-seal patterns on the out-of-plane bending motion. We chose to use a sinusoidal profile for the actuator portion of the heat-seal, shown in the figure above. The sinusoid is parameterized by a period \\(T\\) and an amplitude \\(A\\). The valleys of the sinusoids are offset from the actuator centerline by a distance \\(W_C\\), which we refer to as the Channel Width. The sinusoid, and therefore bending portion of the actuator, has a length \\(L_X\\). The electrode portion has a length \\(L_E\\) and width \\(W\\). The total length of the HASEL actuator is therefore \\(L = L_X + L_E\\).
 </div>
 
 <!-- You can also make fullwidth embeds (this doesn't actually link to any video)
@@ -124,6 +124,7 @@ The experimentally derived relationship is then used to demonstrate different gr
 # [Experimental Methods](#experimental_methods)
 
 *TODO: add experimental methods figure*
+![Shown in a) is a HASEL actuator with a period T=15 mm and channel width W_C=10 mm. Demonstrated in b) is the result of a circle fit (purple) on the markers (red) attached to the actuator. The marker height is a constant offset, which is subtracted to obtain a fit to the actuator curvature (orange).The results for a HASEL actuator with period T=30 mm and channel width W_C=25 mm are presented in c) and d).](Fig3.jpg)
 
 *TODO: add text describing experimental methods*
 
@@ -136,6 +137,7 @@ The experimentally derived relationship is then used to demonstrate different gr
 *TODO: add 3D plot of individual data points?* 
 
 *TODO: add results plot of ratio*
+![Optimal Ratio of 2:1](Fig5.jpg)
 
 *TODO: add text describing results*
 </div>
@@ -144,7 +146,8 @@ The experimentally derived relationship is then used to demonstrate different gr
 # [Conclusion](#conclusion)
 
 *TODO: add different grasp figure*
-
+![So many grasps](Fig6.jpg)
+ 
 *TODO: add text providing conclusion*
 </div>
 
