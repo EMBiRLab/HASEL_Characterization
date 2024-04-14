@@ -220,13 +220,13 @@ The grasping tests demonstrated the ability to generate different grasping types
  
 </div>
 
-<div markdown="1" class="content-block grey justify">
+<!-- <div markdown="1" class="content-block grey justify">
 
 # Citation
 
-*TODO: add bibtex citation*
+*TODO: add bibtex citation* -->
 
-!-- ```bibtex
+<!-- !-- ```bibtex
 @article{nash51,
   author  = "Nash, John",
   title   = "Non-cooperative Games",
@@ -236,5 +236,5 @@ The grasping tests demonstrated the ability to generate different grasping types
   number  = "2",
   pages   = "286--295"
 }
-``` --
-</div>
+``` -- -->
+<!-- </div> -->
