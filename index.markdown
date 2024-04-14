@@ -245,22 +245,27 @@ The grasping tests demonstrated the ability to generate different grasping types
 # [Citation](#citation)
 This project was completed as a collaboration between the Evolution and Motion of Biology and Robotics (EMBiR) Lab and the Robotics and Optimization for Analysis of Human Motion (ROAHM) Lab at University of Michigan - Ann Arbor.
 <!-- *TODO: add bibtex citation* -->
+
 <span style="color:red">
 @article{brei2024HASEL,
 
+<span style="color:red">
   author={Brei, Zachary and Lim, Chae Woo and Ferguson, Annie and Pradhan, Anvay A. and Sangeetha, Varshni Vinayagam and Bu, Xiangyun and Usui, Brent and Johnson, Daniel B. and Vasudevan, Ram and Moore, Talia Y.},
-  
+
+  <span style="color:red">
   journal={IEEE RoboSoft 2024}, 
-  
+
+  <span style="color:red">
   title={ HASEL Actuator Design for Out-of-Plane Bending: A Parametric Study of Planar Geometry}, 
   year={2024},
-  
+
+  <span style="color:red">
   keywords={Soft Sensors and Actuators; Soft Robot Materials and Design;
       Soft Robot Applications}
-      
+
+  <span style="color:red">
   doi={[forthcoming]}
-  
+
+<span style="color:red">
 }
-</span>
-``` --
 <!-- </div> -->
