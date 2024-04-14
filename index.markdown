@@ -260,7 +260,9 @@ This project was completed as a collaboration between the Evolution and Motion o
   journal={IEEE RoboSoft 2024}, 
 
   <span style="color:red">
-  title={ HASEL Actuator Design for Out-of-Plane Bending: A Parametric Study of Planar Geometry}, 
+  title={ HASEL Actuator Design for Out-of-Plane Bending: A Parametric Study of Planar Geometry},
+
+  <span style="color:red">
   year={2024},
 
   <span style="color:red">
