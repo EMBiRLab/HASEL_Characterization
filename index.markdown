@@ -120,7 +120,11 @@ The experimentally derived relationship is then used to demonstrate different gr
 <div markdown="1" class="content-block grey justify no-pre">
 # [Out-of-Plane Bending Motion](#overview)
 
-By varying the heat-seal planar geometry, the out-of-plane bending performance is greatly affected. Shown below is a series of HASEL actuators, all with a channel width of \\(W_C = 5 mm\\), that have different period lengths. 
+By varying the heat-seal planar geometry, the out-of-plane bending performance is greatly affected.
+The HASEL actuators are composed of inextensible material with a stiffer layer on one side of the shell.
+The difference in stiffnesses results in uneven bending during actuation and curvature is induced.
+Shown below is a series of HASEL actuators, all with identical channel width \\(W_C = 5 mm\\), but different period lengths. 
+Actuation is also shown to be repeatable.
 
 <p align="center">
   <img src="Sequence%2001_2.gif" width="100%" alt="animated" />
@@ -156,7 +160,13 @@ The dimensions of the strain limiting layer were also kept constant.
 # [Experimental Methods](#experimental_methods)
 
 An initial sampling grid of 25 points were created with periods \\(T \in 10,12,15,20,30 \\) and channel widths \\(W_C \in 5,10,15,20,25 \\).
-An actuator was made for each combination of period and channel width. 
+Two actuators were made for each combination of period and channel width.
+The HASEL actuators were manufactured by heat-sealing sheets Biaxially-Oriented Polypropylene (BOPP) in a clamshell heat press with an aluminum die in the shape of the desired sinusoidal profile.
+After heat-sealing, a stiffer strain-limiting layer was attached, carbon paint electrode was applied, and a consistent volume fraction of fluid was injected into the cavity.
+To determine the curvature of each actuator, six 3D printed markers were added to the strain-limiting layer.
+During actuation, each HASEL actuator was recorded and the position with maximum curvature was extracted.
+Using image analysis software, the markers were fit to a circle.
+The height of the markers was then subtracted from the radius of the circle to obtain the curvature of each actuator.
 Once initial results were obtained, six additional actuators were made near the largest measured curvature.
 The additional combinations were \\( (T,W_C) \in (8.57,2.5),(8.57,5),(8.57,10),(10,2.5),(12,2.5),(15,2.5) \\).
 <!-- To measure the curvature of an actuator, we attached six 3D printed markers to the strain limiting layer using a small amount of super glue.
@@ -166,7 +176,7 @@ A voltage of 8 kV was applied for three seconds, and powered off for five second
 The movements of the HASEL actuators were captured via a video camera. 
 Images are extracted from the videos when the actuators are steady at their peak curvature during each three second actuation. 
 The images are then cropped  -->
-The data collection and analysis process is described in the paper.
+A more thorough manufacturing, data collection, and analysis process is described in the paper.
 
 <!-- *TODO: add experimental methods figure* -->
 ![](Fig3.jpg)
@@ -181,22 +191,25 @@ Shown in a) is a HASEL actuator with a period T=15 mm and channel width W_C=10 m
 # [Results](#results)
 
 <!-- *TODO: add 3D plot of individual data points?*  -->
-The results of testing 31 actuators is shown below. 
+Each period and channel width were plotted against the experimentally determined maximum curvature.
+The result was a 3D plot of the 31 actuators as shown below.
 Each black circle is the average of the five actuations for each actuator. 
-From the results, it is clear that bending curvature varies with the heat-seal geometry. 
+The plots show that bending curvature varies considerably with the heat-seal geometry. 
 Higher curvatures were obtained with narrower channel widths, with a maximum observed at a channel width of 5 mm.
 Actuators with a channel width of 2.5 mm experienced choking of the fluid flow from the electrode portion into the actuation portion, preventing out-of-plane bending. 
-The period of the sinusoidal wave also shows variation. 
+The period of the sinusoidal wave also shows variation.
 At channel widths of 15 mm and above, increased curvature is observed with increasing period length. 
 At channel widths less than 15 mm, increased curvature is observed with decreasing period length. 
 Maximum curvature is obtained at a period length of 10 mm.
 
 ![Optimal Ratio of 2:1](Fig4.jpg)
 
-
-Further insight can be gained in the relationship between the two design parameters by considering the curvature versus the ratio \\(T : W_C\\) of the period to the channel width, as seen in the figure below.
-Actuators with period lengths of 30 mm experience asymptotic behaviour with increasing ratio, resulting in slight bending deformation. 
-Actuators with smaller period lengths exhibit peak curvature near period to channel width ratios of 2:1.
+A curvature ratio of period to the channel width \\(T : W_C\\) was defined to better understand the relationship between the two design parameters and allow for generalization of the results.
+The curvature was plotted versus this ratio, seen in the figure below.
+Actuators with period lengths of 30 mm experience only slight bending as increasing ratio results in asymptotic curvature.
+Actuators with smaller period lengths, however, exhibit a peak curvature near period to channel width ratios of 2:1.
+This holds for several different sets of period and channel width values.
+Therefore, we propose that more than the particular values of period or channel width, the ratio is the important factor affecting the curvature of a planar HASEL actuator.
 
 ![Optimal Ratio of 2:1](Fig5.jpg)
 
@@ -206,7 +219,14 @@ Actuators with smaller period lengths exhibit peak curvature near period to chan
 <div markdown="1" class="content-block grey justify no-pre">
 # [Conclusion](#conclusion)
 
-The variation in bending caused by different combinations of period length and channel width can be harnessed to achieve various types of grasps. 
+This paper characterizes the effect of the heat-seal profile geometry on the bending of HASEL actuators.
+Thirty-one different period and channel width combinations were manufactured.
+The curvature of the actuators was measured through image processing and its relation to the geometric parameters was identified.
+Higher curvature was generally associated with narrower channel widths, with a lower bound determined by choked fluid flow.
+An optimal period to channel width ratio of 2:1 is identified for maximum curvature.
+
+The variation in bending caused by different combinations of period length and channel width can be harnessed to achieve various types of grasps.
+
 A series of dexterous grasping tests were performed to assess the range of objects that the bending HASEL actuators could lift, as shown in the figure below. 
 Different combinations of HASEL actuators were combined to create different grasping modes.
 
