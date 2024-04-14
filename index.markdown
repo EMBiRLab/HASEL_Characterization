@@ -245,10 +245,10 @@ The grasping tests demonstrated the ability to generate different grasping types
 # [Citation](#citation)
 This project was completed as a collaboration between the Evolution and Motion of Biology and Robotics (EMBiR) Lab and the Robotics and Optimization for Analysis of Human Motion (ROAHM) Lab at University of Michigan - Ann Arbor.
 <!-- *TODO: add bibtex citation* -->
-
+<span style="color:red">
 @article{brei2024HASEL,
 
-  author={Brei, Zachary and Lim, Chae Woo and Ferguson, Annie and Pradhan, Anvay A. and Sangeetha, Varshni Vinayagam and Bu, Xiangyun and Usui, Brent, Johnson, Daniel B. and Vasudevan, Ram and Moore, Talia Y.},
+  author={Brei, Zachary and Lim, Chae Woo and Ferguson, Annie and Pradhan, Anvay A. and Sangeetha, Varshni Vinayagam and Bu, Xiangyun and Usui, Brent and Johnson, Daniel B. and Vasudevan, Ram and Moore, Talia Y.},
   
   journal={IEEE RoboSoft 2024}, 
   
@@ -261,6 +261,6 @@ This project was completed as a collaboration between the Evolution and Motion o
   doi={[forthcoming]}
   
 }
-
+</span>
 ``` --
 <!-- </div> -->
