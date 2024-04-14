@@ -1,7 +1,7 @@
 ---
 # Front matter. This is where you specify a lot of page variables.
 layout: default
-title:  "HASEL Actuator Design for Out-of-Plane Bending: A Parameteric Study of Planar Geometry"
+title:  "HASEL Actuator Design for Out-of-Plane Bending: A Parametric Study of Planar Geometry"
 date:   2023-06-16 03:03:01 -0400
 description: >- # Supports markdown
   This is the main project page and the page used to demonstrate how this works with all of the options for the Front Matter present
@@ -240,21 +240,22 @@ The grasping tests demonstrated the ability to generate different grasping types
  
 </div>
 
-<!-- <div markdown="1" class="content-block grey justify">
+<div markdown="1" class="content-block grey justify">
 
-# Citation
-
+# [Citation](#citation)
+This project was completed as a collaboration between the Evolution and Motion of Biology and Robotics (EMBiR) Lab and the Robotics and Optimization for Analysis of Human Motion (ROAHM) Lab at University of Michigan - Ann Arbor.
 *TODO: add bibtex citation* -->
 
-<!-- !-- ```bibtex
-@article{nash51,
-  author  = "Nash, John",
-  title   = "Non-cooperative Games",
-  journal = "Annals of Mathematics",
-  year    = 1951,
-  volume  = "54",
-  number  = "2",
-  pages   = "286--295"
+!-- ```bibtex
+@article{brei2024HASEL,
+  author={Brei, Zachary and Lim, Chae Woo and Ferguson, Annie and Pradhan, Anvay A. and Sangeetha, Varshni Vinayagam and Bu, Xiangyun and Usui, Brent, Johnson, Daniel B. and Vasudevan, Ram and Moore, Talia Y.},
+  journal={IEEE RoboSoft 2024}, 
+  title={ HASEL Actuator Design for Out-of-Plane Bending: A Parametric Study of Planar Geometry}, 
+  year={2024},
+  keywords={Soft Sensors and Actuators; Soft Robot Materials and Design;
+      Soft Robot Applications}
+  doi={[forthcoming]}
 }
-``` -- -->
+
+``` --
 <!-- </div> -->
