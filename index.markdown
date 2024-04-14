@@ -23,18 +23,18 @@ image:
 # Only the first author is supported by twitter metadata
 authors:
   - name: Zachary Brei
-    footnotes: 1,5
+    footnotes: 1
     email: breizach [at] umich.edu
     mailto: breizach@umich.edu
   - name: Chae Woo Lim
     # url: https://buildingatom.io
     email: chaewlim [at] umich.edu
     mailto: chaewlim@umich.edu
-    footnotes: 1,5
+    footnotes: 1
   - name: Anneliese Ferguson
     email: annferg [at] umich.edu
     mailto: annferg@umich.edu
-    footnotes: 2,5
+    footnotes: 2
   - name: Anvay A. Pradhan
     email: anvay [at] umich.edu
     mailto: anvay@umich.edu
